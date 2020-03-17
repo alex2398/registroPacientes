@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sas_logo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LayoutDatos2"
+        android:layout_width="226dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/LayoutDatos1"
+        app:layout_constraintTop_toBottomOf="@+id/LayoutDatosMain"
+        tools:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/radioHTA16"
+            android:layout_width="63dp"
+            android:layout_height="22dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Fiebre"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="23dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA13"
+            android:layout_width="76dp"
+            android:layout_height="21dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Diarrea"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA15"
+            android:layout_width="66dp"
+            android:layout_height="19dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Disnea"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA20"
+            android:layout_width="69dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Astenia"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA11"
+            android:layout_width="91dp"
+            android:layout_height="21dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Cardiopatía"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="148dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA12"
+            android:layout_width="93dp"
+            android:layout_height="21dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Nauseas"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="23dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA17"
+            android:layout_width="88dp"
+            android:layout_height="24dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Congestión nasal"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA18"
+            android:layout_width="82dp"
+            android:layout_height="21dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Cefalea"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="106dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA19"
+            android:layout_width="52dp"
+            android:layout_height="21dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Tos"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA22"
+            android:layout_width="69dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Rash"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA21"
+            android:layout_width="69dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Mialgias"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA14"
+            android:layout_width="88dp"
+            android:layout_height="21dp"
+            android:checked="false"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Hemoptisis"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="127dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="92dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LayoutDatosMain"
+        android:layout_width="387dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/textNusha"
+            android:layout_width="108dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textNHC" />
+
+        <TextView
+            android:id="@+id/labelPaciente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Paciente"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/textPaciente"
+            android:layout_width="73dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:layout_constraintStart_toEndOf="@+id/labelPaciente"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/textEdad"
+            android:layout_width="72dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="12dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:layout_constraintStart_toEndOf="@+id/labelEdad"
+            app:layout_constraintTop_toBottomOf="@+id/textPaciente" />
+
+        <TextView
+            android:id="@+id/labelNHC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="casual"
+            android:text="NHC"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textNHC"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/textNHC"
+            android:layout_width="107dp"
+            android:layout_height="29dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/labelNusha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="casual"
+            android:text="NUSHA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textNusha"
+            app:layout_constraintTop_toBottomOf="@+id/labelNHC" />
+
+        <TextView
+            android:id="@+id/labelEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="casual"
+            android:text="Edad"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelPaciente" />
+
+        <TextView
+            android:id="@+id/labeSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="casual"
+            android:text="Sexo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelEdad" />
+
+        <TextView
+            android:id="@+id/labelCama"
+            android:layout_width="57dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="casual"
+            android:text="Cama"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textCama"
+            app:layout_constraintTop_toBottomOf="@+id/labelNusha" />
+
+        <EditText
+            android:id="@+id/textCama"
+            android:layout_width="107dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="12dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textNusha" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="110dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toEndOf="@+id/labeSexo"
+            app:layout_constraintTop_toBottomOf="@+id/textEdad">
+
+            <RadioButton
+                android:id="@+id/radio_masculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="casual"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:text="H"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radio_femenino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="casual"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:text="M"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_face_24px" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LayoutDatos1"
+        android:layout_width="484dp"
+        android:layout_height="254dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LayoutDatosMain">
+
+        <RadioButton
+            android:id="@+id/radioHTA"
+            android:layout_width="191dp"
+            android:layout_height="45dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="HTA"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/radioHTA2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioHTA10"
+            android:layout_width="191dp"
+            android:layout_height="40dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Cardiopatía"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/radioHTA5"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <RadioButton
+            android:id="@+id/radioHTA6"
+            android:layout_width="286dp"
+            android:layout_height="45dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Tabaquismo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/radioHTA"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioHTA3"
+            android:layout_width="286dp"
+            android:layout_height="38dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="EPOC"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/radioHTA2"
+            app:layout_constraintTop_toBottomOf="@+id/radioHTA6" />
+
+        <RadioButton
+            android:id="@+id/radioHTA8"
+            android:layout_width="191dp"
+            android:layout_height="37dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="ERC"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/radioHTA7"
+            app:layout_constraintTop_toBottomOf="@+id/radioHTA2" />
+
+        <RadioButton
+            android:id="@+id/radioHTA4"
+            android:layout_width="286dp"
+            android:layout_height="36dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Inmunosupresión"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/radioHTA8"
+            app:layout_constraintTop_toBottomOf="@+id/radioHTA3" />
+
+        <RadioButton
+            android:id="@+id/radioHTA7"
+            android:layout_width="191dp"
+            android:layout_height="43dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Cáncer"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/radioHTA5"
+            app:layout_constraintTop_toBottomOf="@+id/radioHTA8" />
+
+        <RadioButton
+            android:id="@+id/radioHTA5"
+            android:layout_width="191dp"
+            android:layout_height="44dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="ECV"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/radioHTA10"
+            app:layout_constraintTop_toBottomOf="@+id/radioHTA7" />
+
+        <RadioButton
+            android:id="@+id/radioHTA2"
+            android:layout_width="191dp"
+            android:layout_height="38dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="DM"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/radioHTA8"
+            app:layout_constraintTop_toBottomOf="@+id/radioHTA" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ImageView
+        android:id="@+id/logoSAS"
+        android:layout_width="115dp"
+        android:layout_height="105dp"
+        android:src="@drawable/unnamed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
