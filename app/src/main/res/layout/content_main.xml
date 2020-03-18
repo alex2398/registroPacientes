@@ -9,80 +9,79 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/LayoutDatos2"
-        android:layout_width="226dp"
-        android:layout_height="272dp"
+        android:layout_width="400dp"
+        android:layout_height="261dp"
         android:layout_marginStart="56dp"
         android:layout_marginLeft="56dp"
         android:layout_marginTop="32dp"
         app:layout_constraintStart_toEndOf="@+id/LayoutDatos1"
-        app:layout_constraintTop_toBottomOf="@+id/LayoutDatosMain"
-        >
+        app:layout_constraintTop_toBottomOf="@+id/LayoutDatosMain">
 
         <RadioButton
             android:id="@+id/radioFiebre"
-            android:layout_width="115dp"
-            android:layout_height="38dp"
+            android:layout_width="125dp"
+            android:layout_height="32dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Fiebre"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="23dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <RadioButton
             android:id="@+id/radioDiarrea"
-            android:layout_width="76dp"
-            android:layout_height="21dp"
+            android:layout_width="179dp"
+            android:layout_height="42dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Diarrea"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="98dp"
-            tools:layout_editor_absoluteY="44dp" />
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="16dp" />
 
         <RadioButton
             android:id="@+id/radioDisnea"
-            android:layout_width="66dp"
-            android:layout_height="19dp"
+            android:layout_width="134dp"
+            android:layout_height="38dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Disnea"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="65dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioTos" />
 
         <RadioButton
             android:id="@+id/radioAstenia"
-            android:layout_width="69dp"
-            android:layout_height="20dp"
+            android:layout_width="177dp"
+            android:layout_height="32dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Astenia"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="98dp"
-            tools:layout_editor_absoluteY="65dp" />
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="169dp" />
 
         <RadioButton
             android:id="@+id/radioCardiopatia"
-            android:layout_width="91dp"
-            android:layout_height="21dp"
+            android:layout_width="174dp"
+            android:layout_height="29dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Cardiopatía"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="32dp"
@@ -90,101 +89,101 @@
 
         <RadioButton
             android:id="@+id/radionNauseas"
-            android:layout_width="93dp"
-            android:layout_height="21dp"
+            android:layout_width="142dp"
+            android:layout_height="48dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Nauseas"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="98dp"
-            tools:layout_editor_absoluteY="23dp" />
+            tools:layout_editor_absoluteX="184dp"
+            tools:layout_editor_absoluteY="16dp" />
 
         <RadioButton
             android:id="@+id/radioCongestion"
-            android:layout_width="88dp"
-            android:layout_height="24dp"
+            android:layout_width="258dp"
+            android:layout_height="33dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Congestión nasal"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="35dp"
-            tools:layout_editor_absoluteY="85dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioDisnea" />
 
         <RadioButton
             android:id="@+id/radioCefalea"
-            android:layout_width="82dp"
-            android:layout_height="21dp"
+            android:layout_width="249dp"
+            android:layout_height="30dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Cefalea"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="106dp" />
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="184dp" />
 
         <RadioButton
             android:id="@+id/radioTos"
-            android:layout_width="52dp"
-            android:layout_height="21dp"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Tos"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="44dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioFiebre" />
 
         <RadioButton
             android:id="@+id/radioRash"
-            android:layout_width="69dp"
-            android:layout_height="20dp"
+            android:layout_width="129dp"
+            android:layout_height="35dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Rash"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="99dp"
-            tools:layout_editor_absoluteY="104dp" />
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="75dp" />
 
         <RadioButton
             android:id="@+id/radioMialgias"
-            android:layout_width="69dp"
-            android:layout_height="20dp"
+            android:layout_width="148dp"
+            android:layout_height="37dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Mialgias"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="99dp"
-            tools:layout_editor_absoluteY="85dp" />
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="163dp" />
 
         <RadioButton
             android:id="@+id/radioHemoptisis"
             android:layout_width="88dp"
             android:layout_height="21dp"
             android:checked="false"
+            android:fontFamily="casual"
             android:scaleX="0.5"
             android:scaleY="0.5"
             android:text="Hemoptisis"
-            android:fontFamily="casual"
             android:textSize="24sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="127dp" />
+            tools:layout_editor_absoluteY="213dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
