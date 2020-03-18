@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sas_logo"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/LayoutDatos2"
@@ -15,8 +16,8 @@
         app:layout_constraintStart_toEndOf="@+id/LayoutDatos1"
         app:layout_constraintTop_toBottomOf="@+id/LayoutDatosMain">
 
-        <RadioButton
-            android:id="@+id/radioFiebre"
+        <CheckBox
+            android:id="@+id/checkFiebre"
             android:layout_width="165dp"
             android:layout_height="43dp"
             android:checked="false"
@@ -29,8 +30,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <RadioButton
-            android:id="@+id/radioFiebre2"
+        <CheckBox
+            android:id="@+id/checkFiebre2"
             android:layout_width="165dp"
             android:layout_height="43dp"
             android:checked="false"
@@ -43,8 +44,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <RadioButton
-            android:id="@+id/radioSatO2"
+        <CheckBox
+            android:id="@+id/checkSatO2"
             android:layout_width="156dp"
             android:layout_height="31dp"
             android:checked="false"
@@ -54,11 +55,11 @@
             android:text="Sat O2"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/radioTemperatura2"
+            app:layout_constraintEnd_toStartOf="@+id/checkTemperatura2"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <RadioButton
-            android:id="@+id/radioRash"
+        <CheckBox
+            android:id="@+id/checkRash"
             android:layout_width="232dp"
             android:layout_height="31dp"
             android:checked="false"
@@ -69,10 +70,10 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioMialgias" />
+            app:layout_constraintTop_toBottomOf="@+id/checkMialgias" />
 
-        <RadioButton
-            android:id="@+id/radioAstenia"
+        <CheckBox
+            android:id="@+id/checkAstenia"
             android:layout_width="232dp"
             android:layout_height="31dp"
             android:checked="false"
@@ -83,10 +84,10 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioDiarrea" />
+            app:layout_constraintTop_toBottomOf="@+id/checkDiarrea" />
 
-        <RadioButton
-            android:id="@+id/radioDiarrea"
+        <CheckBox
+            android:id="@+id/checkDiarrea"
             android:layout_width="232dp"
             android:layout_height="30dp"
             android:layout_marginTop="4dp"
@@ -98,10 +99,10 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioSatO2" />
+            app:layout_constraintTop_toBottomOf="@+id/checkSatO2" />
 
-        <RadioButton
-            android:id="@+id/radioMialgias"
+        <CheckBox
+            android:id="@+id/checkMialgias"
             android:layout_width="232dp"
             android:layout_height="28dp"
             android:checked="false"
@@ -112,10 +113,10 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioAstenia" />
+            app:layout_constraintTop_toBottomOf="@+id/checkAstenia" />
 
         <EditText
-            android:id="@+id/radioTemperatura"
+            android:id="@+id/checkTemperatura"
             android:layout_width="50dp"
             android:layout_height="40dp"
             android:fontFamily="casual"
@@ -124,12 +125,12 @@
             android:textSize="14sp"
             android:textStyle="bold"
             android:typeface="sans"
-            app:layout_constraintStart_toEndOf="@+id/radioFiebre"
+            app:layout_constraintStart_toEndOf="@+id/checkFiebre"
             app:layout_constraintTop_toTopOf="parent" />
 
 
         <EditText
-            android:id="@+id/radioTemperatura2"
+            android:id="@+id/checkTemperatura2"
             android:layout_width="58dp"
             android:layout_height="36dp"
             android:fontFamily="casual"
@@ -142,8 +143,8 @@
             app:layout_constraintTop_toTopOf="parent" />
 
 
-        <RadioButton
-            android:id="@+id/radioDisnea"
+        <CheckBox
+            android:id="@+id/checkDisnea"
             android:layout_width="165dp"
             android:layout_height="43dp"
             android:checked="false"
@@ -154,10 +155,10 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioTos" />
+            app:layout_constraintTop_toBottomOf="@+id/checkTos" />
 
-        <RadioButton
-            android:id="@+id/radionNauseas"
+        <CheckBox
+            android:id="@+id/checknNauseas"
             android:layout_width="165dp"
             android:layout_height="44dp"
             android:checked="false"
@@ -168,10 +169,10 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioHemoptisis" />
+            app:layout_constraintTop_toBottomOf="@+id/checkHemoptisis" />
 
-        <RadioButton
-            android:id="@+id/radioCongestion"
+        <CheckBox
+            android:id="@+id/checkCongestion"
             android:layout_width="165dp"
             android:layout_height="43dp"
             android:checked="false"
@@ -182,10 +183,10 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioDisnea" />
+            app:layout_constraintTop_toBottomOf="@+id/checkDisnea" />
 
-        <RadioButton
-            android:id="@+id/radioCefalea"
+        <CheckBox
+            android:id="@+id/checkCefalea"
             android:layout_width="165dp"
             android:layout_height="43dp"
             android:checked="false"
@@ -196,12 +197,12 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioCongestion" />
+            app:layout_constraintTop_toBottomOf="@+id/checkCongestion" />
 
-        <RadioButton
-            android:id="@+id/radioTos"
-            android:layout_width="165dp"
-            android:layout_height="43dp"
+        <CheckBox
+            android:id="@+id/checkTos"
+            android:layout_width="164dp"
+            android:layout_height="34dp"
             android:checked="false"
             android:fontFamily="casual"
             android:scaleX="0.5"
@@ -210,10 +211,10 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioFiebre" />
+            app:layout_constraintTop_toBottomOf="@+id/checkFiebre" />
 
-        <RadioButton
-            android:id="@+id/radioHemoptisis"
+        <CheckBox
+            android:id="@+id/checkHemoptisis"
             android:layout_width="165dp"
             android:layout_height="43dp"
             android:checked="false"
@@ -223,7 +224,7 @@
             android:text="Hemoptisis"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/radioCefalea"
+            app:layout_constraintTop_toBottomOf="@+id/checkCefalea"
             tools:layout_editor_absoluteX="0dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -247,22 +248,20 @@
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent">
 
-        <RadioButton
-            android:id="@+id/radioFiebre3"
+        <CheckBox
+            android:id="@+id/checkFiebre3"
             android:layout_width="227dp"
             android:layout_height="39dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="1"
-            android:scaleY="1"
             android:text="Familia informada"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText" />
 
-        <RadioButton
-            android:id="@+id/radioFiebre4"
+        <CheckBox
+            android:id="@+id/checkFiebre4"
             android:layout_width="225dp"
             android:layout_height="38dp"
             android:checked="false"
@@ -273,7 +272,7 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioFiebre3" />
+            app:layout_constraintTop_toBottomOf="@+id/checkFiebre3" />
 
         <EditText
             android:id="@+id/textNusha"
@@ -303,7 +302,7 @@
         <EditText
             android:id="@+id/textPaciente"
             android:layout_width="73dp"
-            android:layout_height="37dp"
+            android:layout_height="35dp"
             android:layout_marginStart="4dp"
             android:layout_marginLeft="4dp"
             android:text=""
@@ -319,7 +318,7 @@
             android:layout_height="35dp"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="5dp"
             android:text=""
             android:textSize="18sp"
             android:textStyle="bold"
@@ -383,7 +382,7 @@
             android:id="@+id/labelEdad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="casual"
             android:text="Edad"
             android:textSize="18sp"
@@ -392,10 +391,10 @@
             app:layout_constraintTop_toBottomOf="@+id/labelPaciente" />
 
         <TextView
-            android:id="@+id/labeSexo"
+            android:id="@+id/labelSexo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="casual"
             android:text="Sexo"
             android:textSize="18sp"
@@ -414,7 +413,7 @@
             android:text="Cama"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/radioGroup"
+            app:layout_constraintStart_toEndOf="@+id/checkGroup"
             app:layout_constraintTop_toBottomOf="@+id/labelNusha" />
 
         <EditText
@@ -432,20 +431,20 @@
             app:layout_constraintTop_toBottomOf="@+id/textNusha" />
 
         <RadioGroup
-            android:id="@+id/radioGroup"
-            android:layout_width="110dp"
-            android:layout_height="37dp"
+            android:id="@+id/checkGroup"
+            android:layout_width="109dp"
+            android:layout_height="41dp"
             android:layout_marginStart="36dp"
             android:layout_marginLeft="36dp"
             android:layout_marginTop="4dp"
             android:orientation="horizontal"
-            app:layout_constraintStart_toEndOf="@+id/labeSexo"
+            app:layout_constraintStart_toEndOf="@+id/labelSexo"
             app:layout_constraintTop_toBottomOf="@+id/textEdad">
 
             <RadioButton
                 android:id="@+id/radio_masculino"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
                 android:checked="false"
                 android:fontFamily="casual"
                 android:scaleX="0.5"
@@ -477,165 +476,139 @@
             tools:layout_editor_absoluteY="2dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="88dp"
         android:layout_height="94dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         android:alpha="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_face_24px" />
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/LayoutDatos1"
-        android:layout_width="484dp"
-        android:layout_height="310dp"
+        android:layout_width="289dp"
+        android:layout_height="180dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/LayoutDatos2">
 
-        <RadioButton
-            android:id="@+id/radioHTA"
-            android:layout_width="191dp"
-            android:layout_height="45dp"
+        <CheckBox
+            android:id="@+id/checkHTA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="HTA"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/radioDM"
+            app:layout_constraintStart_toStartOf="@+id/checkDM"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <RadioButton
-            android:id="@+id/radioCardio"
-            android:layout_width="191dp"
-            android:layout_height="40dp"
+        <CheckBox
+            android:id="@+id/checkCardiopatia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Cardiopatía"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/radioECV"
+            app:layout_constraintStart_toStartOf="@+id/checkInmuno"
+            app:layout_constraintTop_toBottomOf="@+id/checkInmuno" />
+
+        <CheckBox
+            android:id="@+id/checkTabaco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:text="Tabaquismo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/checkHTA"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/checkInmuno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:text="Inmunosupresión"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/checkEPOC"
+            app:layout_constraintTop_toBottomOf="@+id/checkEPOC" />
+
+        <CheckBox
+            android:id="@+id/checkEPOC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:text="EPOC"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/checkHTA"
+            app:layout_constraintTop_toBottomOf="@+id/checkTabaco" />
+
+        <CheckBox
+            android:id="@+id/checkERC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:text="ERC"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/checkCancer"
+            app:layout_constraintTop_toBottomOf="@+id/checkDM" />
+
+        <CheckBox
+            android:id="@+id/checkCancer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:text="Cáncer"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/checkECV"
+            app:layout_constraintTop_toBottomOf="@+id/checkERC" />
+
+        <CheckBox
+            android:id="@+id/checkECV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:fontFamily="casual"
+            android:text="ECV"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/checkCancer"
             tools:layout_editor_absoluteX="1dp" />
 
-        <RadioButton
-            android:id="@+id/radioTabaco"
-            android:layout_width="286dp"
-            android:layout_height="45dp"
+        <CheckBox
+            android:id="@+id/checkDM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:text="Tabaquismo"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/radioHTA"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <RadioButton
-            android:id="@+id/radioEPOC"
-            android:layout_width="286dp"
-            android:layout_height="38dp"
-            android:checked="false"
-            android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:text="EPOC"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/radioDM"
-            app:layout_constraintTop_toBottomOf="@+id/radioTabaco" />
-
-        <RadioButton
-            android:id="@+id/radioERC"
-            android:layout_width="191dp"
-            android:layout_height="37dp"
-            android:checked="false"
-            android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:text="ERC"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/radioCancer"
-            app:layout_constraintTop_toBottomOf="@+id/radioDM" />
-
-        <RadioButton
-            android:id="@+id/radioInmuno"
-            android:layout_width="286dp"
-            android:layout_height="36dp"
-            android:checked="false"
-            android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:text="Inmunosupresión"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/radioERC"
-            app:layout_constraintTop_toBottomOf="@+id/radioEPOC" />
-
-        <RadioButton
-            android:id="@+id/radioCancer"
-            android:layout_width="191dp"
-            android:layout_height="43dp"
-            android:checked="false"
-            android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:text="Cáncer"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/radioECV"
-            app:layout_constraintTop_toBottomOf="@+id/radioERC" />
-
-        <RadioButton
-            android:id="@+id/radioECV"
-            android:layout_width="191dp"
-            android:layout_height="44dp"
-            android:checked="false"
-            android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:text="ECV"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/radioCardio"
-            app:layout_constraintTop_toBottomOf="@+id/radioCancer" />
-
-        <RadioButton
-            android:id="@+id/radioDM"
-            android:layout_width="191dp"
-            android:layout_height="38dp"
-            android:checked="false"
-            android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="DM"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/radioERC"
-            app:layout_constraintTop_toBottomOf="@+id/radioHTA" />
+            app:layout_constraintStart_toStartOf="@+id/checkERC"
+            app:layout_constraintTop_toBottomOf="@+id/checkHTA" />
 
-        <RadioButton
-            android:id="@+id/radioCardiopatia"
-            android:layout_width="287dp"
-            android:layout_height="43dp"
-            android:checked="false"
-            android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:text="Cardiopatía"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/radioCancer"
-            app:layout_constraintTop_toBottomOf="@+id/radioInmuno" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
