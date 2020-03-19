@@ -22,38 +22,21 @@
             android:layout_height="43dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Fiebre"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <CheckBox
-            android:id="@+id/checkFiebre2"
-            android:layout_width="165dp"
-            android:layout_height="43dp"
-            android:checked="false"
-            android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:text="Fiebre"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <CheckBox
             android:id="@+id/checkSatO2"
-            android:layout_width="156dp"
-            android:layout_height="31dp"
+            android:layout_width="169dp"
+            android:layout_height="33dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Sat O2"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/checkTemperatura2"
             app:layout_constraintTop_toTopOf="parent" />
@@ -64,10 +47,8 @@
             android:layout_height="31dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Rash"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkMialgias" />
@@ -78,10 +59,8 @@
             android:layout_height="31dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Astenia"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkDiarrea" />
@@ -90,13 +69,10 @@
             android:id="@+id/checkDiarrea"
             android:layout_width="232dp"
             android:layout_height="30dp"
-            android:layout_marginTop="4dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Diarrea"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkSatO2" />
@@ -107,10 +83,8 @@
             android:layout_height="28dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Mialgias"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkAstenia" />
@@ -122,7 +96,7 @@
             android:fontFamily="casual"
             android:hint="Tª"
             android:text=""
-            android:textSize="14sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             android:typeface="sans"
             app:layout_constraintStart_toEndOf="@+id/checkFiebre"
@@ -131,12 +105,12 @@
 
         <EditText
             android:id="@+id/checkTemperatura2"
-            android:layout_width="58dp"
-            android:layout_height="36dp"
+            android:layout_width="63dp"
+            android:layout_height="33dp"
             android:fontFamily="casual"
             android:hint=""
             android:text=""
-            android:textSize="14sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             android:typeface="sans"
             app:layout_constraintEnd_toEndOf="parent"
@@ -149,10 +123,8 @@
             android:layout_height="43dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Disnea"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkTos" />
@@ -163,10 +135,8 @@
             android:layout_height="44dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:text="Nauseas"
-            android:textSize="24sp"
+             android:text="Nauseas"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkHemoptisis" />
@@ -177,10 +147,8 @@
             android:layout_height="43dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="C. nasal"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkDisnea" />
@@ -191,10 +159,8 @@
             android:layout_height="43dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Cefalea"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkCongestion" />
@@ -205,10 +171,8 @@
             android:layout_height="34dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Tos"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkFiebre" />
@@ -219,10 +183,8 @@
             android:layout_height="43dp"
             android:checked="false"
             android:fontFamily="casual"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
             android:text="Hemoptisis"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/checkCefalea"
             tools:layout_editor_absoluteX="0dp" />
@@ -257,7 +219,7 @@
             android:text="Familia informada"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/checkFiebre4"
             app:layout_constraintTop_toBottomOf="@+id/editText" />
 
         <CheckBox
@@ -276,16 +238,15 @@
 
         <EditText
             android:id="@+id/textNusha"
-            android:layout_width="109dp"
-            android:layout_height="33dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
             android:layout_marginTop="4dp"
             android:text=""
             android:textSize="18sp"
             android:textStyle="bold"
             android:typeface="sans"
             app:layout_constraintStart_toEndOf="@+id/labelNusha"
+            app:layout_constraintStart_toStartOf="@+id/textNHC"
             app:layout_constraintTop_toBottomOf="@+id/textNHC" />
 
         <TextView
@@ -316,14 +277,13 @@
             android:id="@+id/textEdad"
             android:layout_width="74dp"
             android:layout_height="35dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
             android:layout_marginTop="5dp"
             android:text=""
             android:textSize="18sp"
             android:textStyle="bold"
             android:typeface="sans"
             app:layout_constraintStart_toEndOf="@+id/labelEdad"
+            app:layout_constraintStart_toStartOf="@+id/textPaciente"
             app:layout_constraintTop_toBottomOf="@+id/textPaciente" />
 
         <TextView
@@ -347,12 +307,12 @@
             android:text="Telefono"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/editText"
+            app:layout_constraintStart_toStartOf="@+id/checkFiebre3"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/textNHC"
-            android:layout_width="107dp"
+            android:layout_width="110dp"
             android:layout_height="35dp"
             android:layout_marginStart="36dp"
             android:layout_marginLeft="36dp"
@@ -418,16 +378,15 @@
 
         <EditText
             android:id="@+id/textCama"
-            android:layout_width="109dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
             android:layout_marginTop="4dp"
             android:text=""
             android:textSize="18sp"
             android:textStyle="bold"
             android:typeface="sans"
             app:layout_constraintStart_toEndOf="@+id/labelCama"
+            app:layout_constraintStart_toStartOf="@+id/textNusha"
             app:layout_constraintTop_toBottomOf="@+id/textNusha" />
 
         <RadioGroup
@@ -444,13 +403,12 @@
             <RadioButton
                 android:id="@+id/radio_masculino"
                 android:layout_width="wrap_content"
-                android:layout_height="42dp"
+                android:layout_height="wrap_content"
                 android:checked="false"
                 android:fontFamily="casual"
-                android:scaleX="0.5"
-                android:scaleY="0.5"
+                android:paddingRight="5sp"
                 android:text="H"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <RadioButton
@@ -459,10 +417,9 @@
                 android:layout_height="wrap_content"
                 android:checked="false"
                 android:fontFamily="casual"
-                android:scaleX="0.5"
-                android:scaleY="0.5"
+                android:paddingRight="5sp"
                 android:text="M"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
         </RadioGroup>
 
@@ -613,8 +570,8 @@
 
     <ImageView
         android:id="@+id/logoSAS"
-        android:layout_width="115dp"
-        android:layout_height="105dp"
+        android:layout_width="105dp"
+        android:layout_height="72dp"
         android:src="@drawable/unnamed"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
